@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar" dir="rtl">
       <body
-        className={`font-title antialiased`}
+        className="font-title antialiased"
       >
         <Navbar />
         {children}

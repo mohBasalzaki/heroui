@@ -34,14 +34,14 @@ export const animals = [
 export default function App() {
   return (
     <div className="flex w-full flex-wrap md:flex-nowrap justify-between gap-4">
-      <Autocomplete className="max-w-full" label="Select an animal">
+      <Autocomplete className="w-screen" label="Select an animal">
         {animals.map((animal) => (
           <AutocompleteItem key={animal.key}>{animal.label}</AutocompleteItem>
         ))}
       </Autocomplete>
 
       <Autocomplete
-        className="max-w-full"
+        className="w-screen"
         defaultItems={animals}
         label="Favorite Animal"
         placeholder="Search an animal"
@@ -50,7 +50,7 @@ export default function App() {
       </Autocomplete>
 
       <Button
-        className="p-3 w-full"
+        className="p-3 w-full h-14"
         color="primary"
         size="lg"
       >Button</Button>
