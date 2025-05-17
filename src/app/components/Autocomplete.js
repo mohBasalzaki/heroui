@@ -50,7 +50,7 @@ export default function App() {
       </Autocomplete>
 
       <Button
-        className="h-[--visual-viewport-height]"
+        className="p-3 w-full"
         color="primary"
         size="lg"
       >Button</Button>

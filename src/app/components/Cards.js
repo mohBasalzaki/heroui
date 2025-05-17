@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function App() {
   return (
-    <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-0">
+    <div className="gap-4 grid grid-cols-12 grid-rows-2 px-0">
       <Card className="col-span-12 md:col-span-4 h-[300px]">
         <Link href="/booking">
           <CardHeader className="absolute z-10 top-1 flex-col !items-start">
